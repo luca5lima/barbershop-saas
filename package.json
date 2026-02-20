@@ -1,0 +1,22 @@
+{
+  "name": "barbershop-saas",
+  "version": "1.0.0",
+  "description": "SaaS completo para gestão de barbearias com agendamento em tempo real, controle financeiro e dashboard administrativo.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luca5lima/barbershop-saas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luca5lima/barbershop-saas/issues"
+  },
+  "homepage": "https://github.com/luca5lima/barbershop-saas#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
