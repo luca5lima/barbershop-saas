@@ -20,3 +20,4 @@ O desenvolvimento foi iniciado focando em modularização e separação de respo
 ### 📝 Diário de Bordo
 Acompanhe o passo a passo da construção deste SaaS:
 - [Aula 01: Setup Inicial](./notas/01-setup-inicial-nodejs.md)
+- [Aula 02: Criação de Servidor Backend com Express](./notas/02-criacao-servidor-backend.md)
