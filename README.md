@@ -16,3 +16,7 @@ O desenvolvimento foi iniciado focando em modularização e separação de respo
 - Entidades: Implementação de classes de domínio (ex: Person) para representar regras de negócio.
 - Scripts: Automação de tarefas via package.json para facilitar o fluxo de trabalho (npm run start:dev).
 - Git Flow: Uso rigoroso de .gitignore para manter o repositório limpo, ignorando diretórios como node_modules.
+
+### 📝 Diário de Bordo
+Acompanhe o passo a passo da construção deste SaaS:
+- [Aula 01: Setup Inicial](./notas/01-setup-inicial-nodejs.md)

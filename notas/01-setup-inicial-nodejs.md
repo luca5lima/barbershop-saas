@@ -48,7 +48,29 @@ npm install nodemon --save-dev
     ```
     ![Start Projet](./img/8-node-script-dev.PNG)
 
+## 6. Módulos Nativos Explorados
+### 💼 Módulo Path
+Utilizado para manipular caminhos de arquivos e diretórios de forma segura entre diferentes sistemas operacionais.
+- Principais métodos: `basename`, `dirname`, `extname`, `parse` e `join`.
+![path](./img/9-path.PNG)
+
+### 📁 Módulo File System (fs)
+Utilizado para interagir com o sistema de arquivos do computador (I/O).
+- **Operações realizadas**: 
+    - Criação de pastas: `mkdir`;
+        ![fs](./img/10-fs-criar-pasta.PNG)
+    - Escrita de arquivos: `writeFile`; 
+        ![fs](./img/11-fs-criar-arqivo.PNG)
+    - Atualização: `appendFile` e Leitura: `readFile`.
+        ![fs](./img/12-fs-add-ler.PNG)
+
 ## 💡 Notas de Aprendizado
 - O `npm init` agiliza o processo criando o arquivo de configuração com valores padrão.
 - O uso do `.gitignore` é uma boa prática fundamental de segurança e organização em projetos profissionais.
 - Separar a lógica em `person.js` e importar no `index.js` já começa a introduzir conceitos de modularização.
+- O módulo `fs` permite que nossa aplicação salve dados de forma persistente mesmo sem um banco de dados complexo inicialmente.
+
+## 🚀 Como rodar o projeto desta aula
+```bash
+npm run start:dev
+```
