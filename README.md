@@ -4,7 +4,7 @@ O FSW Barber é uma plataforma SaaS completa de gestão e agendamento para barbe
 ## 🛠️ Stack Técnica
 O ecossistema do projeto é composto pelas seguintes tecnologias de ponta:
 
-- Runtime: Node.js (v14+) para um backend de alta performance.
+- Runtime: Node.js (v22+) para um backend de alta performance.
 - Linguagem: TypeScript para tipagem estática e redução de bugs em tempo de execução.
 - Frontend: React com Next.js 14, aproveitando as últimas atualizações de Server Components.
 - Produtividade: Nodemon para reinicialização automática do ambiente de desenvolvimento.
@@ -19,5 +19,6 @@ O desenvolvimento foi iniciado focando em modularização e separação de respo
 
 ### 📝 Diário de Bordo
 Acompanhe o passo a passo da construção deste SaaS:
-- [Aula 01: Setup Inicial](./notas/01-setup-inicial-nodejs.md)
+- [Aula 01: Setup Inicial e Módulos Nativos](./notas/01-setup-inicial-nodejs.md)
 - [Aula 02: Criação de Servidor Backend com Express](./notas/02-criacao-servidor-backend.md)
+- [Aula 03: Conexão com MongoDB e Segurança](./notas/03-conexao-banco-dados-mongodb.md)
