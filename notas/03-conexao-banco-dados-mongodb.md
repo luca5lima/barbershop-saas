@@ -1,4 +1,4 @@
-# Aula 03: 💾 Conexão com Banco de Dados - MongoDB
+# Aula 03: 🔗 Conexão com Banco de Dados - MongoDB
 
 Nesta etapa, integrei o banco de dados NoSQL **MongoDB Atlas** ao SaaS da Barbearia, garantindo que as informações do sistema sejam armazenadas de forma persistente e segura.
 
