@@ -23,3 +23,4 @@ Acompanhe o passo a passo da construção deste SaaS:
 - [Aula 02: Criação de Servidor Backend com Express](./notas/02-criacao-servidor-backend.md)
 - [Aula 03: Conexão com MongoDB e Segurança](./notas/03-conexao-banco-dados-mongodb.md)
 - [Aula 04: Modelagem de Dados e Operações CRUD](./notas/04-modelagem-e-operacoes-crud-com-mongoose.md)
+- [Aula 05: Template Engine EJS e Frontend Dinâmico](./notas/05-template-engine-ejs-e-renderizacao-frontend.md)

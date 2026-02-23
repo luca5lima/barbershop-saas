@@ -53,14 +53,7 @@ Após realizar as requisições, validei que os dados foram persistidos corretam
 ![CRUD](./img/22-post-mongoDB.PNG)
 
 ## 💡 Notas de Aprendizado
-- **Tratamento de Erros:** Em todas as rotas, utilizei blocos `try/catch` retornando `status(500)` para garantir que o servidor não caia em caso de falha.
-
-- **Status Codes:** Aprendi a importância de retornar os códigos corretos (200 para sucesso, 201 para criação e 500 para erro interno).
-
-- **Ferramentas de Teste:** O uso de clientes HTTP (como o do VS Code) é essencial para validar a lógica do backend antes de construir o frontend.
-
+- **Tratamento de Erros:** Em todas as rotas, utilizei blocos `try/catch` retornando `status(500)` para garantir que o servidor não caia em caso de falha (200 para sucesso, 201 para criação e 500 para erro interno).
 - **Fluxo de Requisição:** O Middleware funciona como um pedágio; ele pode verificar se o usuário está logado ou apenas registrar logs antes da rota principal ser executada.
-
 - **Async/Await:** Essencial para garantir que o código espere a resposta do banco de dados antes de enviar o `res.status(200)` para o cliente.
-
 - **Diferença PATCH vs PUT:** Usei PATCH para atualizações parciais, o que é mais eficiente para o nosso SaaS quando queremos mudar apenas um campo como o e-mail.
